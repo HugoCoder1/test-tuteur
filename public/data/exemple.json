@@ -1,0 +1,62 @@
+{
+  "tuteurs": [
+    {
+      "id": "1",
+      "nomComplet": "Ahmed Benali",
+      "matieres": ["Mathématiques"],
+      "niveaux": ["Lycée"],
+      "disponibilites": [
+        { "jour": "Lundi", "heureDebut": "18:00", "heureFin": "20:00" },
+        { "jour": "Mercredi", "heureDebut": "16:00", "heureFin": "20:00" },
+        { "jour": "Samedi", "heureDebut": "10:00", "heureFin": "19:00" }
+      ],
+      "experience": 3,
+      "note": 4.5
+    },
+    {
+      "id": "2",
+      "nomComplet": "Sarah Martin",
+      "matieres": ["Physique"],
+      "niveaux": ["Collège", "Lycée"],
+      "disponibilites": [
+        { "jour": "Mercredi", "heureDebut": "14:00", "heureFin": "16:00" },
+        { "jour": "Samedi", "heureDebut": "10:00", "heureFin": "22:00" }
+      ],
+      "experience": 2,
+      "note": 4.2
+    },
+    {
+      "id": "3",
+      "nomComplet": "Karim Ouali",
+      "matieres": ["Français"],
+      "niveaux": ["Terminale"],
+      "disponibilites": [
+        { "jour": "Lundi", "heureDebut": "18:00", "heureFin": "20:00" }
+      ],
+      "experience": 5,
+      "note": 4.8
+    }
+  ],
+  "eleves": [
+    {
+      "id": "1",
+      "nomComplet": "Ali Hassan",
+      "matieres": ["Mathématiques"],
+      "niveau": "Lycée",
+      "disponibilites": [
+        { "jour": "Lundi", "heureDebut": "18:00", "heureFin": "20:00" }
+      ],
+      "priorite": "haute"
+    },
+    {
+      "id": "2",
+      "nomComplet": "Yasmine Benali",
+      "matieres": ["Physique"],
+      "niveau": "Collège",
+      "disponibilites": [
+        { "jour": "Mercredi", "heureDebut": "14:00", "heureFin": "16:00" }
+      ],
+      "priorite": "moyenne"
+    }
+  ]
+}
